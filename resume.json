@@ -5,30 +5,16 @@
     "label": "Ph.D. Student",
     "picture": "https://avatars.githubusercontent.com/u/30385917?s=460&u=9097ea908cd6286bb61b448bd78ade5932993769&v=4",
     "email": "habibif@uci.edu",
-    "url": "http://farzadhabibi.ir",
-    "summary": "My name is Farzad Habibi. I have just started my Ph.D. in Computer Science studies at the University of California, Irvine. Previously, I studied a B.Sc. in Computer Engineering at the University of Tehran and worked for 9 month as a full-time software engineer at Radin Bourse where we were developing an ultra-low latency trading platform. My interests are mainly in Distributed Systems and Data Management, and I also love programming. :)",
+    "url": "https://www.ics.uci.edu/~habibif/",
+    "summary": "My name is Farzad Habibi. I'm a first-year Ph.D. student studying Computer Science at the University of California, Irvine. Previously, I studied a B.Sc. in Computer Engineering at the University of Tehran and worked for 9 month as a full-time software engineer at Radin Bourse where we were developing an ultra-low latency trading platform. My interests are mainly in Distributed Systems and Data Management, and I also love programming. :)",
     "location": {
-      "address": "",
+      "address": "2059 DBH, UCI",
       "postalCode": "CA 92697",
       "city": "Irvine",
       "countryCode": "USA",
       "region": ""
     },
     "profiles": [
-      {
-        "network": "telegram",
-        "username": "farzad_habibi",
-        "url": "https://t.me/farzad_habibi"
-      },
-      {
-        "network": "spotify",
-        "username": "farzadhabibii98"
-      },
-      {
-        "network": "Twitter",
-        "username": "farzadhabibii",
-        "url": "https://twitter.com/farzadhabibii"
-      },
       {
         "network": "github",
         "username": "gsoosk",
@@ -38,11 +24,6 @@
         "network": "linkedin",
         "username": "farzad-habibi-7927a8142",
         "url": "https://www.linkedin.com/in/farzad-habibi-7927a8142/"
-      },
-      {
-        "network": "skype", 
-        "username": "live:7bf4ad83cc7093d9",
-        "url": "https://join.skype.com/invite/seakzm2Jxrsa"
       },
       {
         "network": "google scholar",
@@ -348,6 +329,11 @@
   }
 ],
   "projects": [
+    {
+      "name": "Peter DB",
+      "description": "A full implementation of a database system consists of Paged File Manager, Record Based File Manager, Relation Manager, Index Manage, and QueryEngine.",
+      "url": "https://github.com/gsoosk/PeterDB"
+    },
     {
       "name": "Virtual Network Routing",
       "description": "Represents a distance-vector network routing protocol among virtual nodes that are connected via interfaces.",
