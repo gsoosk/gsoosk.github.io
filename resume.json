@@ -6,7 +6,7 @@
     "picture": "https://avatars.githubusercontent.com/u/30385917?s=460&u=9097ea908cd6286bb61b448bd78ade5932993769&v=4",
     "email": "habibif@uci.edu",
     "url": "https://www.ics.uci.edu/~habibif/",
-    "summary": "My name is Farzad Habibi. I'm a first-year Ph.D. student studying Computer Science at the University of California, Irvine. Previously, I studied a B.Sc. in Computer Engineering at the University of Tehran and worked for 9 month as a full-time software engineer at Radin Bourse where we were developing an ultra-low latency trading platform. My interests are mainly in Distributed Systems and Data Management, and I also love programming. :)",
+    "summary": "My name is Farzad Habibi. I'm a second-year Ph.D. student studying Computer Science at the University of California, Irvine. Previously, I studied a B.Sc. in Computer Engineering at the University of Tehran and worked for 9 month as a full-time software engineer at Radin Bourse where we were developing an ultra-low latency trading platform. My interests are mainly in Distributed Systems and Data Management, and I also love programming. :)",
     "location": {
       "address": "2059 DBH, UCI",
       "postalCode": "CA 92697",
@@ -42,7 +42,7 @@
       "endDate": "",
       "description": "",
       "highlights": [],
-      "url": "https://edge-lab.github.io/"
+      "url": "https://edgelab.ics.uci.edu/"
     },
     {
       "name": "Radin Bourse",
@@ -190,6 +190,20 @@
       "releaseDate": "2020-09-01",
       "url": "https://ieeexplore.ieee.org/abstract/document/9269128",
       "summary": "virtual network embedding (VNE) is a well-known problem in network virtualization. We leveraged Graph Neural Networks which is a novel machine learning architecture for graphs to solve this problem with a better performance and scalability."
+    },
+    {
+      "name": "PeloPartition: Improving Blockchain Resilience to Network Partitioning",
+      "publisher": "2022 IEEE International Conference on Blockchain (Blockchain)",
+      "releaseDate": "2022-08-22",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9881826",
+      "summary": "we explore the impact of network partitions on blockchain networks and present a sharding protocol to overcome their negative impact."
+    },
+    {
+      "name": "Analyzing soft and hard partitions of global-scale blockchain systems",
+      "publisher": "2022 IEEE International Conference on Blockchain (Blockchain)",
+      "releaseDate": "2022-08-22",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9881855",
+      "summary": "our goal is to lay the groundwork for the introduction of new blockchain architectures to minimize the harm caused during partitions and facilitate rapid and uncontroversial recovery from them."
     }
   ],
   "skills": [
@@ -202,7 +216,7 @@
       "name": "Programming",
       "level": "advanced",
       "keywords": [
-        "C", "Phython", "JavaScript", "VerilogHDL"
+        "C", "Python", "JavaScript", "VerilogHDL"
       ]
     },
     {
@@ -329,6 +343,11 @@
   }
 ],
   "projects": [
+    {
+      "name": "Repllicated Postgres",
+      "description": "This project provide a multi-node replication system for postgres db. It will replicate data from a leader into two other replications, and it can tolerate leader failure for transactions.",
+      "url": "https://github.com/gsoosk/ReplicatedPostgres"
+    },
     {
       "name": "Peter DB",
       "description": "A full implementation of a database system consists of Paged File Manager, Record Based File Manager, Relation Manager, Index Manage, and QueryEngine.",
