@@ -6,7 +6,7 @@
     "picture": "https://avatars.githubusercontent.com/u/30385917?s=460&u=9097ea908cd6286bb61b448bd78ade5932993769&v=4",
     "email": "habibif@uci.edu",
     "url": "https://www.ics.uci.edu/~habibif/",
-    "summary": "My name is Farzad Habibi. I'm a second-year Ph.D. student studying Computer Science at the University of California, Irvine. Previously, I studied a B.Sc. in Computer Engineering at the University of Tehran and worked for 9 month as a full-time software engineer at Radin Bourse where we were developing an ultra-low latency trading platform. My interests are mainly in Distributed Systems and Data Management, and I also love programming. :)",
+    "summary": "My name is Farzad Habibi. I'm a third-year Ph.D. student studying Computer Science at the University of California, Irvine. Previously, I studied a B.Sc. in Computer Engineering at the University of Tehran and worked for 9 month as a full-time software engineer at Radin Bourse where we were developing an ultra-low latency trading platform. My interests are mainly in Distributed Systems and Data Management, and I also love programming. :)",
     "location": {
       "address": "2059 DBH, UCI",
       "postalCode": "CA 92697",
@@ -37,7 +37,7 @@
       "name": "UC Irvine, Edge Lab",
       "location": "Irvine, CA",
       "position": "Graduate Research Assistant",
-      "summary": "Doing research on building data infrastructure for distributed systems under supervison of Prof. Faisal Nawab.",
+      "summary": "Working at UCI Edge Lab under supervision of Prof. Faisal Nawab. We study and build distributed data management systems.We are interested in systems that span large geographic areas and infrastructures, including cloud and edge environments.",
       "startDate": "2022-01-01",
       "endDate": "",
       "description": "",
@@ -48,7 +48,7 @@
       "name": "Radin Bourse",
       "location": "Tehran, Iran",
       "position": "Software Engineer",
-      "summary": "Building a brand-new matching engine core for Iran's national stock",
+      "summary": "I was part of the team developing a new order-matching engine system for Iran's national stock. This product addresses requirements such as ultra-high performance, low latency (~1μs), scalability, and high availability. Beyond developing new features for the system, I worked on enhancing the response time of distributed event stores deployed within, such as Kafka and Redpanda. We successfully reduced their latency from milliseconds to microseconds.",
       "startDate": "2021-02-01",
       "endDate": "2021-11-15",
       "description": "",
@@ -95,6 +95,24 @@
     }
   ],
   "volunteer": [
+    {
+      "organization": "Society of Iranian Graduate Students (SIGS)",
+      "position": "Professional and Community Relations Chair",
+      "startDate": "2023-09-01",
+      "endDate": "",
+      "summary": "Society of Iranian Graduate Students (SIGS) is a non-profit organization based on the University of California, Irvine (UCI) dedicated to promote and hold Iranian cultural events."
+    },
+    {
+      "organization": "UC Irvine",
+      "position": "Teaching Assistant",
+      "startDate": "2022-01-01",
+      "endDate": "2023-12-01",
+      "highlights": [
+        "Introduction to Python Libraries (ICS 32), M. Ibrahim",
+        "Principles of Operating Systems (CS 143), A. Amiri",
+        "Computer Networks (CS132), S. Jordan"
+      ]
+    },
     {
       "organization": "University of Tehran",
       "position": "Teaching Assistant",
@@ -185,11 +203,11 @@
   ],
   "publications": [
     {
-      "name": "Accelerating Virtual Network Embedding with Graph Neural Networks",
-      "publisher": "IEEE/ACM/IFIP Conference on Network and Service Management (CNSM 2020)",
-      "releaseDate": "2020-09-01",
-      "url": "https://ieeexplore.ieee.org/abstract/document/9269128",
-      "summary": "virtual network embedding (VNE) is a well-known problem in network virtualization. We leveraged Graph Neural Networks which is a novel machine learning architecture for graphs to solve this problem with a better performance and scalability."
+      "name": "MSF-Model: Modeling Metastable Failures in Replicated Storage Systems",
+      "publisher": "In 22nd USENIX Conference on File and Storage Technologies (USENIX FAST'24), Available on arxiv, Submitted for review, 2023.",
+      "releaseDate": "2023-10-01",
+      "url": "https://arxiv.org/abs/2309.16181",
+      "summary": "Our main contribution is the development of a queuing-based analytical model, MSF-Model, that can be used to characterize and predict metastable failures. MSF-Model integrates novel modeling concepts that allow modeling metastable failures which was interactable to model prior to our work."
     },
     {
       "name": "PeloPartition: Improving Blockchain Resilience to Network Partitioning",
@@ -204,6 +222,13 @@
       "releaseDate": "2022-08-22",
       "url": "https://ieeexplore.ieee.org/abstract/document/9881855",
       "summary": "our goal is to lay the groundwork for the introduction of new blockchain architectures to minimize the harm caused during partitions and facilitate rapid and uncontroversial recovery from them."
+    },
+    {
+      "name": "Accelerating Virtual Network Embedding with Graph Neural Networks",
+      "publisher": "IEEE/ACM/IFIP Conference on Network and Service Management (CNSM 2020)",
+      "releaseDate": "2020-09-01",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9269128",
+      "summary": "virtual network embedding (VNE) is a well-known problem in network virtualization. We leveraged Graph Neural Networks which is a novel machine learning architecture for graphs to solve this problem with a better performance and scalability."
     }
   ],
   "skills": [
@@ -298,24 +323,24 @@
   ],
   "languages": [
     {
-      "language": "Persian",
-      "fluency": "Native speaker"
-    },
-    {
       "language": "English",
       "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "Persian",
+      "fluency": "Native speaker"
     }
+
   ],
   "interests": [
     {
       "name": "Personal",
       "keywords": [
-        "Cooking",
+        "Tennis",
         "Camping",
         "Travelling",
         "Hiking",
-        "Video Games",
-        "Volley Ball"
+        "Video Games"
       ]
     },
     {
@@ -343,6 +368,11 @@
   }
 ],
   "projects": [
+    {
+      "name": "MSF-Model",
+      "description": "Development of a queuing-based analytical model that can be used to characterize and predict metastable failures which was interactable to this work. This project integrates modeling concepts such as queuing theory, Markov chain, Monte carlo analysis, and distance divergence.",
+      "url": "https://github.com/gsoosk/MetastableFailuresInReplicatedDatabases"
+    },
     {
       "name": "Repllicated Postgres",
       "description": "This project provide a multi-node replication system for postgres db. It will replicate data from a leader into two other replications, and it can tolerate leader failure for transactions.",
