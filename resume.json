@@ -6,7 +6,7 @@
     "picture": "https://avatars.githubusercontent.com/u/30385917?s=460&u=9097ea908cd6286bb61b448bd78ade5932993769&v=4",
     "email": "habibif@uci.edu",
     "url": "https://www.ics.uci.edu/~habibif/",
-    "summary": "My name is Farzad Habibi. I'm a third-year Ph.D. student studying Computer Science at the University of California, Irvine. Previously, I studied a B.Sc. in Computer Engineering at the University of Tehran and worked for 9 month as a full-time software engineer at Radin Bourse where we were developing an ultra-low latency trading platform. My interests are mainly in Distributed Systems and Data Management, and I also love programming. :)",
+    "summary": "My name is Farzad Habibi. I'm a fourth-year Ph.D. candidate studying Computer Science at the University of California, Irvine. Previously, I studied a B.Sc. in Computer Engineering at the University of Tehran and worked for 9 month as a full-time software engineer at Radin Bourse where we were developing an ultra-low latency trading platform. My interests are mainly in Distributed Systems and Data Management, and I also love programming. :)",
     "location": {
       "address": "2059 DBH, UCI",
       "postalCode": "CA 92697",
@@ -41,7 +41,11 @@
       "startDate": "2022-01-01",
       "endDate": "",
       "description": "",
-      "highlights": [],
+      "highlights": ["Proposed an optimized distributed concurrency protocol, achieving a 3.8x increase in throughput and a 43% reduction in latency under high-contention workloads.",
+        "Proposed a formal analysis and modeling of metastable failures in replicated storage systems using queuing theory, enabling the first-ever modeling of these failures.",
+        "Designed a sharding mechanism that improved blockchain resilience by a factor of 6 during global internet outages.",
+        "Examined real-world global scale internet partitioning in blockchain architecture to minimize harm and enable rapid recovery."
+      ],
       "url": "https://edgelab.ics.uci.edu/"
     },
     {
@@ -52,14 +56,19 @@
       "startDate": "2021-02-01",
       "endDate": "2021-11-15",
       "description": "",
-      "highlights": [],
+      "highlights": ["Contributed to developing a low-latency ( 1µs) order-matching engine in Java.",
+          "Optimized performance of distributed event stores (Kafka, Redpanda) through benchmarking, reducing the order latency from milliseconds to microseconds.",
+          "Deployed a containerized monitoring system in the production pipeline using Docker, Prometheus, and Grafana, enabling real-time service monitoring and proactive issue detection.",
+          "Deployed a UI for the company’s Ansible codebase using SemaphoreUI, enabling graphical execution of workflows."
+        ],
       "url": "https://radinbourse.com/"
     },
     {
       "name": "University of Tehran",
       "location": "Tehran, Iran",
       "position": "Undergraduate Research Assistant",
-      "summary": "Working on virtual network embedding (VNE) which is a well-known problem in network virtualization. I started to learn about Graph Neural Networks which is a novel machine learning architecture by reading abundance number of related papers. We leveraged this method to solve the VNE problem.",
+      "summary": "Designed and implemented a virtual network embedding algorithm using Graph Neural Networks (GNN), improving runtime by a factor of 8 and increasing the revenue-to-cost ratio by 18% compared to other simulated algorithms.",
+      "summary2222": "Working on virtual network embedding (VNE) which is a well-known problem in network virtualization. I started to learn about Graph Neural Networks which is a novel machine learning architecture by reading abundance number of related papers. We leveraged this method to solve the VNE problem.",
       "startDate": "2020-03-01",
       "endDate": "2021-03-01",
       "description": "",
@@ -73,10 +82,9 @@
       "startDate": "2019-07-01",
       "endDate": "2019-10-01",
       "highlights": [
-        "PAD Laboratory",
-        "Under the supervision of Prof. B. Bahrak"
-      ],
-      "summary": "I was part of the machine learning group. During this 320 hours internship, interns started to read the Hands-on Machine Learning book and participate in Kaggle competitions besides. My internship’s notebooks can be found here."
+       "Developed and optimized ML models for real-world data analysis projects using tools such as Scikit-Learn and NumPy.",
+       "Built hands-on experience in ML by studying Hands-on Machine Learning book and competing in Kaggle competitions."
+      ]
     },
     {
       "name": "Rahnema College",
@@ -88,9 +96,9 @@
       "description": "",
       "summary": "",
       "highlights": [
-        "8-Week internship with scrum methodology",
-        "We designed and implemented an IOS/Andriod application with a feature combination of Instagram & Pinterest",
-        "Developed in React Native as front-end and django as back-end"
+        "Contributed to the design and development of an iOS/Android application combining Instagram and Pinterest features",
+        "Implemented the front-end using React Native and the back-end with Python Django.",
+        "Applied Scrum methodology, teamwork, and feedback concepts to improve project efficiency and collaboration."
       ]
     }
   ],
@@ -99,7 +107,7 @@
       "organization": "Society of Iranian Graduate Students (SIGS)",
       "position": "Professional and Community Relations Chair",
       "startDate": "2023-09-01",
-      "endDate": "",
+      "endDate": "2024-09-01",
       "summary": "Society of Iranian Graduate Students (SIGS) is a non-profit organization based on the University of California, Irvine (UCI) dedicated to promote and hold Iranian cultural events."
     },
     {
@@ -110,7 +118,8 @@
       "highlights": [
         "Introduction to Python Libraries (ICS 32), M. Ibrahim",
         "Principles of Operating Systems (CS 143), A. Amiri",
-        "Computer Networks (CS132), S. Jordan"
+        "Computer Networks (CS132), S. Jordan",
+        "Transaction Processing and Distributed Data Management (CS 223), F. Nawab"
       ]
     },
     {
@@ -178,6 +187,23 @@
   ],
   "awards": [
     {
+      "title": "Best Paper Runner-up Award",
+      "awarder": "SRDS 2024",
+      "date": "2024-09-01",
+      "summary": "My paper 'MSF-Model' has been nominated for the best paper runner-up award in SRDS2024"
+    },
+    {
+      "title": "Best Ph.D. Forum Short Paper Award",
+      "awarder": "SRDS 2024",
+      "date": "2024-09-01",
+      "summary": "My short Ph.D. forum paper has been nominated for the best paper runner-up award in SRDS2024"
+    },
+    {
+      "title": "ICDE 2023 Travel Award",
+      "awarder": "ICDE 2023",
+      "date": "2023-05-01"
+    },
+    {
       "title": "CS Department Dean’s Fellowship",
       "awarder": "UC Irvine",
       "date": "2021-09-01", 
@@ -203,9 +229,23 @@
   ],
   "publications": [
     {
-      "name": "MSF-Model: Modeling Metastable Failures in Replicated Storage Systems",
-      "publisher": "In 22nd USENIX Conference on File and Storage Technologies (USENIX FAST'24), Available on arxiv, Submitted for review, 2023.",
-      "releaseDate": "2023-10-01",
+      "name": "Brook-2PL: Tolerating High Contention Workloads with A Deadlock-Free Two-Phase Locking Protocol",
+      "publisher": "51st International Conference on Very Large Data Bases (VLDB 2025) [Under Submission] ",
+      "releaseDate": "2024-12-01",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "ImmortalChopper: Real-Time and Resilient Distributed Transactions in the Edge-Cloud",
+      "publisher": "The 19th USENIX Symposium on Operating Systems Design (OSDI 2025) [Under Submission]",
+      "releaseDate": "2024-12-01",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "MSF-Model: Queuing-Based Analysis and Prediction of Metastable Failures in Replicated Storage Systems",
+      "publisher": "The 43rd International Symposium on Reliable Distributed Systems (SRDS 2024) ",
+      "releaseDate": "2024-09-01",
       "url": "https://arxiv.org/abs/2309.16181",
       "summary": "Our main contribution is the development of a queuing-based analytical model, MSF-Model, that can be used to characterize and predict metastable failures. MSF-Model integrates novel modeling concepts that allow modeling metastable failures which was interactable to model prior to our work."
     },
@@ -340,16 +380,16 @@
         "Camping",
         "Travelling",
         "Hiking",
-        "Video Games"
+        "Photography"
       ]
     },
     {
       "name": "Music",
       "keywords": [
         "Alternative Rock", 
+        "Post Rock",
         "Progressive Rock",
-        "Indie",
-        "Free Jazz"
+        "Indie"
       ]
     }
   ],
