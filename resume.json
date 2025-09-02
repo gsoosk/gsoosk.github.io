@@ -230,16 +230,16 @@
   "publications": [
     {
       "name": "Brook-2PL: Tolerating High Contention Workloads with A Deadlock-Free Two-Phase Locking Protocol",
-      "publisher": "51st International Conference on Very Large Data Bases (VLDB 2025) [Under Submission] ",
-      "releaseDate": "2024-12-01",
-      "url": "",
-      "summary": ""
+      "publisher": "2026 ACM International Conference on Management of Data (SIGMOD 26)",
+      "releaseDate": "2026-01-01",
+      "url": "https://arxiv.org/abs/2508.18576",
+      "summary": "We introduce Brook-2PL, a new concurrency control protocol that eliminates deadlocks through static analysis and enables early lock release via partial transaction chopping."
     },
     {
-      "name": "ImmortalChopper: Real-Time and Resilient Distributed Transactions in the Edge-Cloud",
-      "publisher": "The 19th USENIX Symposium on Operating Systems Design (OSDI 2025) [Under Submission]",
-      "releaseDate": "2024-12-01",
-      "url": "",
+      "name": "Deadlocks: A Critical Performance Bottleneck in High-Contention OLTP Systems",
+      "publisher": "2025 26th IEEE International Conference on Mobile Data Management (MDM)",
+      "releaseDate": "2025-04-01",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11058411",
       "summary": ""
     },
     {
